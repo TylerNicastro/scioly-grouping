@@ -1,0 +1,11 @@
+# Keep student performance data strictly private
+sample_data.json
+results/
+
+# Ignore standard Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.DS_Store

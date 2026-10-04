@@ -1,0 +1,32 @@
+{
+  "_notes": ["Student performance data. Edit this file or create a new JSON file using this template. This was made for formatting, not testing, so results may look strange on their own. To have complete, rich data, increase sample size and include event variety. Run: python scioly_groups.py example_data.json"],
+  "events": [
+    {"name": "Boomilever", "type": "build"},
+    {"name": "Thermodynamics", "type": "hybrid"},
+    {"name": "Electric Vehicle", "type": "build"},
+    {"name": "Ping Pong Parachute", "type": "build"},
+    {"name": "Hovercraft", "type": "hybrid"},
+    {"name": "Mission Possible", "type": "build"},
+    {"name": "Experimental Design", "type": "test"},
+    {"name": "Chemistry Lab", "type": "test"},
+    {"name": "Circuit Lab", "type": "test"},
+    {"name": "Protein Modeling", "type": "test"},
+    {"name": "Write it Do it", "type": "test"},
+    {"name": "Forensics", "type": "test"},
+    {"name": "Rocks and Minerals", "type": "test"},
+    {"name": "Water Quality", "type": "test"},
+    {"name": "Dynamic Planet", "type": "test"},
+    {"name": "Anatomy and Physiology", "type": "test"},
+    {"name": "Botany", "type": "test"},
+    {"name": "Disease Detectives", "type": "test"},
+    {"name": "Astronomy", "type": "test"},
+    {"name": "Remote Sensing", "type": "test"},
+    {"name": "Designer Genes", "type": "test"},
+    {"name": "Codebusters", "type": "test"},
+    {"name": "Wright Stuff", "type": "build"}
+  ],
+  "students": [
+    {"name": "John Smith", "officer": false, "performance": {"Protein Modeling": 2, "Astronomy": 1, "Rocks and Minerals": 5, "Anatomy and Physiology": 2, "Botany": 5}, "preferences": ["Astronomy", "Rocks and Minerals", "Botany"]},
+    {"name": "Jane Doe", "officer": true, "performance": {"Chemistry Lab": 5, "Forensics": 1, "Codebusters": 2, "Designer Genes": 4}, "preferences": []}
+  ]
+}
